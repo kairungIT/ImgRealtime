@@ -24,7 +24,7 @@ st.write("This Web App is to help convert your photos to realistic Pencil Sketch
 # collecting the input image from user camera 
 
 file_image = st.camera_input(label = "Take a pic of you to be sketched out")
-st.image(file_image)
+#st.image(file_image)
 if file_image:
     input_img = Image.open(file_image)
     final_sketch = pencilsketch(np.array(input_img))
