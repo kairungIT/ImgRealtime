@@ -19,11 +19,11 @@ st.write("This Web App is to help convert your photos to realistic Pencil Sketch
 
 # collect the user input 
 
-#file_image = st.sidebar.file_uploader("Upload your Photos", type=['jpeg','jpg','png'])
+file_image = st.sidebar.file_uploader("Upload your Photos", type=['jpeg','jpg','png'])
 
 # collecting the input image from user camera 
 
-file_image = st.camera_input(label = "Take a pic of you to be sketched out")
+#file_image = st.camera_input(label = "Take a pic of you to be sketched out")
 
 if file_image:
     input_img = Image.open(file_image)
