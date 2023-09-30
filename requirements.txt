@@ -1,7 +1,2 @@
-opencv-python
-Pillow
-pandas
 streamlit
 matplotlib
-opencv-contrib
-numpy
