@@ -1,2 +1,5 @@
 streamlit
 matplotlib
+numpy
+Pillow
+opencv-python-headless
