@@ -4,4 +4,4 @@ pandas
 streamlit
 streamlit-webrtc
 matplotlib
-
+opencv-python-headless
